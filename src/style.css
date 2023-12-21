@@ -1,0 +1,39 @@
+.choix {
+  width: 50%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#top table {
+  margin: 0 auto;
+}
+
+#top tr th {
+  text-align: center;
+  min-width: 100px;
+  background-color: steelblue;
+  color: white;
+}
+#top td {
+  padding: 0 10px;
+}
+#top td.texte {
+  text-align: left;
+}
+#top td.nombre {
+  text-align: right;
+}
+#top tbody tr:nth-child(odd) {
+  background-color: lightblue;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 5px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
